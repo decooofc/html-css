@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas 
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            1em = 16px (geralmente)
+            */
+            font-size: 1.5em;
+            font-weight: normal;
+            font-style: normal;
+            /* tipos de peso na fonte: lighter, normal, bold e bolder
+            tipos de peso na fonte(número): 100 à 900 */ 
+            
+            /*existem fontes que não tem variação de peso*/
+        }
+        h1 {
+            /*
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+
+            /* shorthand font
+             
+            - font-style -> font-weight -> font-size, font-family 
+            
+            */
+
+            font: italic bolder 3em 'Work sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, repudiandae nisi quisquam sint cupiditate in illum amet deleniti officia eum perspiciatis corrupti obcaecati eligendi voluptates rem ipsa quia ad consequuntur?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quo maxime deserunt voluptates minus nostrum asperiores, aperiam expedita enim natus voluptatibus laboriosam consequuntur cupiditate culpa vero, ea aliquam, explicabo odio.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit excepturi vel est exercitationem quod dignissimos nemo ut sit ullam provident non repellendus optio nisi error dolor inventore necessitatibus, dolorem dolores?</p>
+</body>
+</html>
